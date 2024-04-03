@@ -45,7 +45,7 @@ h2{
 
 /* First section */
 .first-section{
-    background-image: url(backgrnd.jpg);
+    background-image: url(image/backgrnd.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -86,17 +86,14 @@ h2{
 
 /* This is servive area */
 
-.grid-container-1{
+
+.grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: auto;
-}
 
 .grid-single-item{
-    padding: 100px;
+    padding: 50px;
     text-align: center;
 }
 .grid-single-item h2{
@@ -114,14 +111,17 @@ h2{
 
 .work-single-img{
     width: 390px;
+   
 }
 
+
+
+/* contact section */
 .testimonial-p{
     color: black !important;
     margin-top: 5px;
 }
 
-/* contact section */
 .contact-heading{
     font-size: 55px;
     text-align: center;
